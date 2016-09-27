@@ -4,3 +4,63 @@
 #questions {
   display: none;
 }
+
+#base_question {
+  display: none;
+}
+
+#base_warm {
+  display: none;
+}
+
+#base_warm_ocean {
+  display: none;
+}
+
+#base_warm_ocean_beach {
+  display: none;
+}
+
+#base_warm_ocean_explore {
+  display: none;
+}
+
+#base_warm_no-ocean {
+  display: none;
+}
+
+#base_warm_no-ocean_landscape {
+  display: none;
+}
+
+#base_warm_no-ocean_culture {
+  display: none;
+}
+
+#base_cold {
+  display: none;
+}
+
+#base_cold_mountain {
+  display: none;
+}
+
+#base_cold_mountain_advanced {
+  display: none;
+}
+
+#base_cold_mountain_novice {
+  display: none;
+}
+
+#base_cold_no-mountain {
+  display: none;
+}
+
+#base_cold_no-mountain_whale {
+  display: none;
+}
+
+#base_cold_no-mountain_springs {
+  display: none;
+}
