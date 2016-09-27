@@ -1,12 +1,68 @@
-#personal_information {
-  display: none;
+#intro .fade_in {
+  animation-duration: 5s;
+    animation-name: fadeIn;
 }
-#questions {
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(.5, .5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+
+
+h1, h2, h3, h4 {
+  font-family: fantasy;
+  text-align: center;
+  color: white;
+}
+
+
+#welcome_screen {
+  position:absolute;
+    top:0; right:0;
+    bottom:0; left:0;
+  background-image: url("../img/dove_tail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#intro {
+  display: none;
+  position:absolute;
+    top:0; right:0;
+    bottom:0; left:0;
+  background-image: url("../img/plain_landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 5%;
+}
+
+#contact_information {
   display: none;
 }
 
+#questions {
+  display: none;
+}
 #base_question {
   display: none;
+  position:absolute;
+    top:0; right:0;
+    bottom:0; left:0;
+  background-image: url("../img/straight_path.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding-top: 25%;
+
+
+
 }
 
 #base_warm {

@@ -1,13 +1,13 @@
 $(document).ready(function() {
-  $("#welcome_screen .btn_1").click(function() {
+  $("#welcome_screen").click(function() {
     $("#welcome_screen").hide();
-    $("#personal_information").show();
+    $("#intro").show();
   });
-  $("#personal_information .btn_2").click(function() {
-    $("#personal_information").hide();
+  $("#intro h3").click(function() {
+    $("#intro").hide();
     $("#base_question").show();
   });
-  $("#base_question .warm").click(function() {
+  $("#base_question .1").click(function() {
     $("#base_question").hide();
     $("#base_warm").show();
   });
