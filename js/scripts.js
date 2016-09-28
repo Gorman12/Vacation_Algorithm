@@ -7,7 +7,7 @@ $(document).ready(function() {
     $("#intro").hide();
     $("#base_question").show();
   });
-  $("#base_question .1").click(function() {
+  $("#base_question .warm").click(function() {
     $("#base_question").hide();
     $("#base_warm").show();
   });

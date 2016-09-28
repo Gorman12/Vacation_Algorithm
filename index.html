@@ -3,7 +3,7 @@
   <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/jquery-3.1.1.js"></script>
   <script src="js/scripts.js"></script>
     <title>vacation spot</title>
   </head>
@@ -12,14 +12,143 @@
       <div class="container">
         <h1>Welcome to my travel destination algorythm</h1>
         <br>
-        <h4>please click the dove and get ready to fly.</h4>
+        <h4 class="fade_in">please click the dove and get ready to fly.</h4>
       </div>
     </div>
     <div id="intro">
       <div class="container">
-        <h1 class="center">Our journey begins with a series of questions that build off one another untill you end up at your ideal vacation destination.</h1>
+        <h1 class="center">Our journey begins with a series of questions that build off one another untill a unique vacation destination appears before you.</h1>
         <br>
         <h3 class="fade_in"><em>continue</em></h3>
+      </div>
+    </div>
+    <div id="base_question">
+      <div class="container">
+        <h1>Would you like to vacation in
+          <br>
+          Warm or Cold conditions?</h1>
+        <br>
+        <div class="col-md-6">
+          <h3 class="warm fade_in">Warm please</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="cold fade_in">Ill bring a jacket</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_warm">
+      <div class="container">
+        <h1>would you like ocean access??</h1>
+        <br>
+        <div class="col-md-6">
+          <h3 class="ocean fade_in">Yes I would</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="no-ocean fade_in">No, terrified of sharks.</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_cold">
+      <div class="container">
+        <h1>Would you like to have access to a mountain?</h1>
+        <br>
+        <div class="col-md-6">
+          <h3 class="mountain fade_in">Yes im feeling adventurous</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="no-mountain fade_in">No I value relaxation over adrenaline</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_warm_ocean">
+      <div class="container">
+        <h1>Which sounds more enticing; A relaxing day at the beach or exploring the ocean depths</h3>
+        <br>
+        <div class="col-md-6">
+          <h3 class="beach fade_in">Pass me the Pina colada</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="explore fade_in">Ill grab the scuba gear</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_warm_no-ocean">
+      <div class="container">
+        <h1>Do you have more interest in exploring a regions landscape or its culture?</h1>
+        <br>
+        <div class="col-md-6">
+          <h3 class="landscape fade_in">beautiful landscape</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="culture fade_in">Culture</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_cold_mountain">
+      <div class="container">
+        <h1>Are you looking for a ligitamate chance of dying on a mountain side in the name of exploration, or just some casual skiing and hot chocolate</h3>
+        <br>
+        <div class="col-md-6">
+          <h3 class="advanced fade_in">lets tightrope between life and death</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="novice fade_in">Would certainly die, to out of shape, pass the hot chocolate.</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_cold_no-mountain">
+      <div class="container">
+        <h1>Would you rather send your time whale watching on the open ocean or relaxing in natural hot springs?</h3>
+        <br>
+        <div class="col-md-6">
+          <h3 class="whale fade_in">Moby Dick aint got shit on me</h3>
+        </div>
+        <div class="col-md-6">
+          <h3 class="springs fade_in">Relaxing hot springs</h3>
+        </div>
+      </div>
+    </div>
+    <div id="base_warm_ocean_beach">
+      <div class="container">
+        <h1>Hawaiian Islands</h1>
+      </div>
+    </div>
+    <div id="base_warm_ocean_explore">
+      <div class="container">
+        <h1>Great Barrier Reef, Australia</h1>
+      </div>
+    </div>
+    <div id="base_warm_no-ocean_landscape">
+      <div class="container">
+        <h1>Swiss Alps</h1>
+      </div>
+      <!-- <div class="content">
+        <h1>Content</h1>
+      </div> -->
+    </div>
+    <div id="base_warm_no-ocean_culture">
+      <div class="container">
+        <h1>Barcelona, Spain</h1>
+      </div>
+    </div>
+    <div id="base_cold_mountain_advanced">
+      <div class="container">
+        <h1>K2, Pakistan</h1>
+      </div>
+    </div>
+    <div id="base_cold_mountain_novice">
+      <div class="container">
+        <h1>Aspen, Colorado</h1>
+      </div>
+    </div>
+    <div id="base_cold_no-mountain_whale">
+      <div class="container">
+        <h1>Alaska</h1>
+      </div>
+    </div>
+    <div id="base_cold_no-mountain_springs">
+      <div class="container">
+        <h1>Blue lagoon, Iceland</h1>
       </div>
     </div>
     <div id="contact_information">
@@ -58,106 +187,6 @@
         <h4>when finished please double check your answers and click submit.</h4>
         <br>
         <button class="btn_2">submit</button>
-      </div>
-    </div>
-    <div id="base_question">
-      <div class="container">
-        <h1>Warm or Cold conditions?</h1>
-        <br>
-        <div class="col-md-6">
-          <h3 class="1">Warm for me</h3>
-        </div>
-        <div class="col-md-6">
-          <h3 class="2">Nice and cold</h3>
-        </div>
-      </div>
-    </div>
-    <div id="base_warm">
-      <div class="container">
-        <h3>would you like your vacation to have ocean access?</h3>
-        <br>
-        <button class="ocean">Yes I want to have access to the ocean</button>
-        <button class="no-ocean">No ocean for me, terrified of sharks.</button>
-      </div>
-    </div>
-    <div id="base_cold">
-      <div class="container">
-        <h3>Would you like to have access to a mountain for skiing/snowboarding/hiking?</h3>
-        <br>
-        <button class="mountain">Yes I will be skiing</button>
-        <button class="no-mountain">No I value my tailbone</button>
-      </div>
-    </div>
-    <div id="base_warm_ocean">
-      <div class="container">
-        <h3>would you rather spend most of yor time at the beach relaxing, or exploring the shollow waters in search of choral and cool fishes?</h3>
-        <br>
-        <button class="beach">Pinacoladas and beach all day></button>
-        <button class="explore">swim and explore all day</button>
-      </div>
-    </div>
-    <div id="base_warm_no-ocean">
-      <div class="container">
-        <h3>Would you rather explore a place for its beautiful natural landscapre or its rich culture?</h3>
-        <br>
-        <button class="landscape">beautiful landscape</button>
-        <button class="culture">Culture</button>
-      </div>
-    </div>
-    <div id="base_cold_mountain">
-      <div class="container">
-        <h3>are you looking for very advanced level hiking/skiing, or more moderate recreational mountain activities?</h3>
-        <br>
-        <button class="advanced">bring on the danger!</button>
-        <button class="novice">weekend warrior level</button>
-      </div>
-    </div>
-    <div id="base_cold_no-mountain">
-      <div class="container">
-        <h3>Does ocean wale watching or relaxing in natural hot springs on a snowey day sound better?</h3>
-        <br>
-        <button class="whale">whale watching</button>
-        <button class="springs">Hot springs all day</button>
-      </div>
-    </div>
-    <div id="base_warm_ocean_beach">
-      <div class="container">
-        <h3>base_warm_ocean_beach</h3>
-      </div>
-    </div>
-    <div id="base_warm_ocean_explore">
-      <div class="container">
-        <h3>base_warm_ocean_explore</h3>
-      </div>
-    </div>
-    <div id="base_warm_no-ocean_landscape">
-      <div class="container">
-        <h3>base_warm_no-ocean_culture</h3>
-      </div>
-    </div>
-    <div id="base_warm_no-ocean_culture">
-      <div class="container">
-        <h3>base_warm_no-ocean_culture</h3>
-      </div>
-    </div>
-    <div id="base_cold_mountain_advanced">
-      <div class="container">
-        <h3>base_cold_mountain_advanced</h3>
-      </div>
-    </div>
-    <div id="base_cold_mountain_novice">
-      <div class="container">
-        <h3>base_cold_mountain_novice</h3>
-      </div>
-    </div>
-    <div id="base_cold_no-mountain_whale">
-      <div class="container">
-        <h3>base_cold_no-mountain_whales</h3>
-      </div>
-    </div>
-    <div id="base_cold_no-mountain_springs">
-      <div class="container">
-        <h3>base_cold_no-mountain_springs</h3>
       </div>
     </div>
   </body>
