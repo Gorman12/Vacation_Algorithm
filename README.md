@@ -4,9 +4,11 @@
 
 #### This web-page invites the user to answer a series of questions that will lead them to a vacation destination suggestion.
 
+#### Through out the web-page you will read the lead text, then choose your answer by clicking on one of two possible fading-in answers.
+
 #### The link below will direct you to the Vacation algorithm web-page.
 
-#### Through out the web-page you will read the lead text, then choose your answer by clicking on one of two possible fading-in answers.
+#### https://gorman12.github.io/Vacation_Algorithm/
 
 #### This project was created using;
 * HTML5
@@ -14,7 +16,7 @@
 * jQuery
 * Bootstrap
 
-#### Copyright (c) 
+#### Copyright (c)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
