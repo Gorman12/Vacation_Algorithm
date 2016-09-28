@@ -30,8 +30,8 @@ $(document).ready(function() {
     $("#base_warm_ocean_explore").show();
     $("#base_warm_ocean_explore").click(function() {
       $(".content").toggle();
+    });
   });
-});
   $("#base_warm .no-ocean").click(function() {
     $("#base_warm").hide();
     $("#base_warm_no-ocean").show();

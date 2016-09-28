@@ -38,7 +38,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/dove_tail.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
 }
 
 #intro {
@@ -49,16 +48,7 @@ h1, h2, h3, h4 {
   background-image: url("../img/plain_landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   padding-top: 5%;
-}
-
-#contact_information {
-  display: none;
-}
-
-#questions {
-  display: none;
 }
 
 #base_question {
@@ -91,7 +81,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/ocean.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 #base_warm_ocean_beach {
@@ -102,7 +91,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/hawaii_beach.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 #base_warm_ocean_explore {
@@ -113,7 +101,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/barrier_reef.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 #base_warm_no-ocean {
@@ -124,7 +111,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/autumn_forest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   padding-top: 20%;
 }
 
@@ -136,7 +122,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/alps.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 #base_warm_no-ocean_culture {
@@ -147,7 +132,6 @@ h1, h2, h3, h4 {
   background-image: url("../img/barcelona.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 #base_cold {
