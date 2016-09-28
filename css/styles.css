@@ -14,7 +14,6 @@
     }
 }
 
-
 h1, h2, h3, h4 {
   font-family: fantasy;
   text-align: center;
@@ -22,12 +21,15 @@ h1, h2, h3, h4 {
   size; large
 }
 
-/*.content {
-  position: absolute;
-    top: 100%;
-    width: 100%;
-    height: 200px;
-}*/
+.content {
+  font-size: 40px;
+  text-align: center;
+  background-color: black;
+  opacity: .8;
+  padding: 5px;
+  border: groove;
+  border-radius: 25px;
+}
 
 #welcome_screen {
   position:absolute;
@@ -58,6 +60,7 @@ h1, h2, h3, h4 {
 #questions {
   display: none;
 }
+
 #base_question {
   display: none;
   position:absolute;
@@ -67,9 +70,6 @@ h1, h2, h3, h4 {
   background-repeat:no-repeat;
   background-size: cover;
   padding-top: 20%;
-
-
-
 }
 
 #base_warm {
