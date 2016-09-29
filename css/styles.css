@@ -21,6 +21,14 @@ h1, h2, h3, h4 {
   size; large
 }
 
+.set_background {
+  position:absolute;
+    top:0; right:0;
+    bottom:0; left:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content {
   font-size: 40px;
   text-align: center;
@@ -32,177 +40,91 @@ h1, h2, h3, h4 {
 }
 
 #welcome_screen {
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/dove_tail.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #intro {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/plain_landscape.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 5%;
 }
 
 #base_question {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/train.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
   padding-top: 20%;
 }
 
 #base_warm {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/sun_clouds.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
   padding-top: 20%;
 }
 
 #base_warm_ocean {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/ocean.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_warm_ocean_beach {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/hawaii_beach.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_warm_ocean_explore {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/barrier_reef.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_warm_no-ocean {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/autumn_forest.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 20%;
 }
 
 #base_warm_no-ocean_landscape {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/alps.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_warm_no-ocean_culture {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/barcelona.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_cold {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/dim_tree.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 25%;
 }
 
 #base_cold_mountain {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/mountain_peak.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_cold_mountain_advanced {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/K2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_cold_mountain_novice {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/aspen.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
 }
 
 #base_cold_no-mountain {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/walkway.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 10%;
 }
 
 #base_cold_no-mountain_whale {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/whale.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #base_cold_no-mountain_springs {
   display: none;
-  position:absolute;
-    top:0; right:0;
-    bottom:0; left:0;
   background-image: url("../img/lagoon_iceland.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
