@@ -12,9 +12,8 @@
 
 #### This project was created using;
 * HTML5
-* CSS
-* jQuery
-* Bootstrap
+* CSS w/Bootstrap
+* javaScript w/jQuery
 
 #### Copyright (c)
 
