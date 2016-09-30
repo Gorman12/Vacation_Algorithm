@@ -21,6 +21,10 @@ h1, h2, h3, h4 {
   size; large
 }
 
+/*.question_2 {
+  display: none;
+}*/
+
 .set_background {
   position:absolute;
     top:0; right:0;
@@ -30,6 +34,7 @@ h1, h2, h3, h4 {
 }
 
 .content {
+  display: none;
   font-size: 40px;
   text-align: center;
   background-color: black;
