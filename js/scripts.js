@@ -1,14 +1,24 @@
-// var a = (event.target.id).toString();
-
-
 $(document).ready(function() {
+  $("#welcome_screen").show();
   $("#welcome_screen").click(function() {
     $("#welcome_screen").hide();
     $("#intro").show();
     });
-    $("#intro h3").click(function() {
-      $("#intro").hide();
-      $("#base_question").show();
+  $("#intro form").submit(function(event) {
+    var name = $("input#name").val();
+    if (name == "") {
+      name = ("Mr. I dont follow directions");
+    }
+    $(".hello").text(name);
+    $("form").hide();
+    $("#intro #name_user_text").hide();
+    $("#intro #welcome_user").show();
+    $("#intro h3").show();
+    event.preventDefault();
+  });
+  $("#intro h3").click(function() {
+    $("#intro").hide();
+    $("#base_question").show();
     });
     $("#base_question .fade_in").click(function(event) {
       $("#base_question").hide();
@@ -47,7 +57,7 @@ $(document).ready(function() {
         $(".content").toggle();
       });
     } else  {
-      $("#base_cold_no-mountain_" + a).show();
+      $("#base_cold_no-mountain_" + a).show()
       $("#base_cold_no-mountain_" + a).click(function() {
         $(".content").toggle();
       });

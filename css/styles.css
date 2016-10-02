@@ -41,10 +41,24 @@ h1, h2, h3, h4 {
   opacity: .8;
   padding: 5px;
   border: groove;
-  border-radius: 25px;
+  border-radius: 5px;
+  width: inherit;
+}
+
+#name {
+  position:relative;;
+  left:0;
+  right:0;
+  top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  width: 200px;
+  background-color: black;
 }
 
 #welcome_screen {
+  display: none;
   background-image: url("../img/dove_tail.jpg");
 }
 
@@ -52,6 +66,14 @@ h1, h2, h3, h4 {
   display: none;
   background-image: url("../img/plain_landscape.jpg");
   padding-top: 5%;
+}
+
+#intro h3 {
+  display: none;
+}
+
+#welcome_user {
+  display: none;
 }
 
 #base_question {
