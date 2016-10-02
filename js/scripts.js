@@ -19,12 +19,12 @@ $(document).ready(function() {
   $("#intro h3").click(function() {
     $("#intro").hide();
     $("#base_question").show();
-    });
-    $("#base_question .fade_in").click(function(event) {
-      $("#base_question").hide();
-      var a = (event.target.id).toString();
-      if (a === "warm") {
-      $("#base_warm").show();
+  });
+  $("#base_question .fade_in").click(function(event) {
+    $("#base_question").hide();
+    var a = (event.target.id).toString();
+    if (a === "warm") {
+    $("#base_warm").show();
     } else {
       $("#base_cold").show();
     }
