@@ -42,7 +42,7 @@ $(document).ready(function() {
     $(".question_3").hide();
     var a = (event.target.id).toString();
     if ((a === "beach") || (a ==="explore")) {
-      $("#base_warm_ocean_" + a).show()
+      $("#base_warm_ocean_" + a).show();
       $("#base_warm_ocean_" + a).click(function() {
         $(".content").toggle();
       });
@@ -57,7 +57,7 @@ $(document).ready(function() {
         $(".content").toggle();
       });
     } else  {
-      $("#base_cold_no-mountain_" + a).show()
+      $("#base_cold_no-mountain_" + a).show();
       $("#base_cold_no-mountain_" + a).click(function() {
         $(".content").toggle();
       });

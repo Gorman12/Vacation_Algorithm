@@ -18,12 +18,8 @@ h1, h2, h3, h4 {
   font-family: fantasy;
   text-align: center;
   color: white;
-  size; large
+  size; large;
 }
-
-/*.question_2 {
-  display: none;
-}*/
 
 .set_background {
   position:absolute;
